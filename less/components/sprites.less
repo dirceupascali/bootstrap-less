@@ -1,0 +1,16 @@
+.sprite {
+	background-repeat: no-repeat;
+	&.logo, &.ico, &.btn {
+		display:inline-block;
+		background-image:url(../images/sprites/icons.svg);
+	}
+}
+
+.ie8 {
+	.sprite {
+		&.logo, &.ico, &.btn {
+			display:inline-block;
+			background-image:url(../images/sprites/icons.png);
+		}
+	}
+}
